@@ -1,0 +1,98 @@
+/* CSS Style Sheet for the Week 4 Homework Assignment */
+/* Leslie A Borst */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+table{
+    border: none;
+    width: 750px;
+    padding: 0;
+    margin: auto;
+}
+
+h1{
+    color: #0066cc; /* cool blue */
+}
+
+h3{
+    color: #191970; /* midnight blue */
+    text-decoration: underline;
+}
+
+h5{
+    color: #000000; /* black */
+    font-style: italic;
+}
+
+hr{
+    border: none;
+    border-top: 1px dotted #000000; /* the border */
+    height: 1px;
+}
+
+p{
+    margin: 0px 300px;
+}
+
+/* images style */
+img{
+    float: center;
+    border: 1px solid #000000; 
+    border-right: 3px solid #ff9900; /* yellow */
+    border-bottom: 3px solid #ff9900; /* yellow */
+    margin: 0px 5px 10px 10px;
+}
+
+/* hyperlinks style */
+
+a:link{
+    color:#0066cc; /* cool blue */
+}
+
+a:visited{
+    color:#0066cc; /* cool blue */
+}
+
+a:hover{
+    color: #ff9900; /* yellow */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:active{
+    color: #0066cc; /* cool blue */
+    text-decoration: underline;
+}
+
+/* travel tip class */
+.travel_tip{
+    background-color: #ff9900; /* yellow */
+    padding: 5px 5px 5px 5px;
+    border: 1px black solid;
+    margin: 40px 5px 5px 0px;
+}
+
+/* quotes class */
+.quote{
+    color: #666666; /* dark grey */
+    font-style: italic;
+    margin: 10px 10px 10px 10px;
+}
+
+/* copyright ID */
+#copyright{
+    text-align: center;
+    font-size: 9px;
+    font-style: italic;
+}
+
+/* lists style */
+ul li{
+    list-style-type: square;
+    color: #666666; /* dark grey */
+    list-style-position: inside;
+}
